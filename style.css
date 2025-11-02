@@ -203,16 +203,23 @@ section>p{
       background-color: #0061FE;
       grid-area: bottom-up;
       border-radius: 30px;
+      position: relative;
 }
 #bottom-up #bottom-up-p{
       font-size: 18px;
       font-weight: 500;
       padding: 20px 40px;
+      position: absolute;
+      top: 20%;
+      left: 25%;
 }
 #bottom-up #persentage{
       font-size: 60px;
       font-weight: 500;
-      padding: 10px 40px;
+      padding: 10px 20px;
+      position: absolute;
+      top: 22%;
+      left: 0%;
 }
 #bottom-down{
       background-color:#232323;
